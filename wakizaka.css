@@ -82,3 +82,27 @@ a:hover {
     color: #e50000; /* ホバー時に情熱の赤に */
     background-color: #ffc30030; /* わずかに金の背景 */
 }
+.hero {
+    /* 背景画像ファイルの場所を指定 */
+    background-image: url('https://tblg.k-img.com/restaurant/images/Rvw/156553/640x640_rect_156553822.jpg');
+    
+    /* 適切な高さを設定しないと画像が表示されない */
+    height: 400px; 
+    
+    /* 画像を縦横比を保ちつつ、要素全体を覆うように拡大・縮小 */
+    background-size: cover;
+    
+    /* 画像の中心を基準に表示 */
+    background-position: center;
+    
+    /* 画像の繰り返し表示をオフにする */
+    background-repeat: no-repeat;
+    
+    /* 背景画像の上に文字を読ませるため、暗めのフィルターをかける */
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-blend-mode: darken; /* 背景色と画像を合成 */
+    
+    color: #ffc300; /* 文字色は金色 */
+    padding: 20px;
+    text-align: center;
+}
